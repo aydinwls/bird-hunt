@@ -1,0 +1,205 @@
+[
+  {
+    "user": "Aydin",
+    "bird": "Blue Jay",
+    "points": 10,
+    "week": 50,
+    "timestamp": "2025-12-12T15:41:08.671054"
+  },
+  {
+    "user": "Aydin",
+    "bird": "Eastern Phoebe",
+    "points": 1,
+    "week": 50,
+    "timestamp": "2025-12-12T16:14:49.991846"
+  },
+  {
+    "user": "Aydin",
+    "bird": "Northern Cardinal",
+    "points": 10,
+    "week": 50,
+    "timestamp": "2025-12-14T17:48:00.630807"
+  },
+  {
+    "user": "aydin",
+    "bird": "Blue Jay",
+    "points": 10,
+    "week": 51,
+    "timestamp": "2025-12-15T14:02:45.823882"
+  },
+  {
+    "user": "Aydin",
+    "bird": "White-throated Sparrow",
+    "points": 5,
+    "week": 51,
+    "timestamp": "2025-12-15T14:05:57.370252"
+  },
+  {
+    "user": "test 2",
+    "bird": "Red-bellied Woodpecker",
+    "points": 15,
+    "week": 51,
+    "timestamp": "2025-12-15T20:42:23.389544"
+  },
+  {
+    "user": "aydin",
+    "bird": "House Sparrow",
+    "points": 5,
+    "week": 51,
+    "timestamp": "2025-12-15T21:15:17.332071"
+  },
+  {
+    "user": "aydin",
+    "bird": "Song Sparrow",
+    "points": 10,
+    "week": 51,
+    "timestamp": "2025-12-15T21:15:37.858543"
+  },
+  {
+    "user": "aydin",
+    "bird": "European Starling",
+    "points": 5,
+    "week": 51,
+    "timestamp": "2025-12-15T21:20:16.483418"
+  },
+  {
+    "user": "aydin",
+    "bird": "Great Horned Owl",
+    "points": 25,
+    "week": 51,
+    "timestamp": "2025-12-15T21:26:25.207608"
+  },
+  {
+    "user": "aydin",
+    "bird": "Nashville Warbler",
+    "points": 20,
+    "week": 51,
+    "timestamp": "2025-12-15T21:26:53.273148"
+  },
+  {
+    "user": "aydin",
+    "bird": "Nashville Warbler",
+    "points": 20,
+    "week": 51,
+    "timestamp": "2025-12-15T21:27:30.009298"
+  },
+  {
+    "user": "aydin",
+    "bird": "Great Horned Owl",
+    "points": 25,
+    "week": 51,
+    "timestamp": "2025-12-15T21:31:10.079580"
+  },
+  {
+    "user": "aydin",
+    "bird": "Great Horned Owl",
+    "points": 25,
+    "week": 51,
+    "timestamp": "2025-12-15T21:31:22.416281"
+  },
+  {
+    "user": "test 3",
+    "bird": "Great Horned Owl",
+    "points": 25,
+    "week": 51,
+    "timestamp": "2025-12-15T21:31:56.025226"
+  },
+  {
+    "user": "test 4",
+    "bird": "Great Horned Owl",
+    "points": 25,
+    "week": 51,
+    "timestamp": "2025-12-15T21:38:00.283978"
+  },
+  {
+    "user": "aydin",
+    "bird": "Great Black-Backed Gull",
+    "points": 10,
+    "week": 51,
+    "timestamp": "2025-12-15T22:07:31.327793"
+  },
+  {
+    "user": "aydin",
+    "bird": "Dark-eyed Junco",
+    "points": 10,
+    "week": 51,
+    "timestamp": "2025-12-16T15:44:57.943559"
+  },
+  {
+    "user": "test 5",
+    "bird": "Northern Cardinal",
+    "points": 10,
+    "week": 51,
+    "timestamp": "2025-12-16T17:08:12.845249"
+  },
+  {
+    "user": "test 5",
+    "bird": "Blue Jay",
+    "points": 10,
+    "week": 51,
+    "timestamp": "2025-12-16T17:09:48.989303"
+  },
+  {
+    "user": "test 6",
+    "bird": "American Robin",
+    "points": 5,
+    "week": 51,
+    "timestamp": "2025-12-16T18:08:09.750874"
+  },
+  {
+    "user": "test 7",
+    "bird": "Northern Cardinal",
+    "points": 10,
+    "week": 51,
+    "timestamp": "2025-12-20T13:36:35.407922"
+  },
+  {
+    "user": "test 8",
+    "bird": "Nashville Warbler",
+    "points": 20,
+    "week": 51,
+    "timestamp": "2025-12-20T13:38:17.591428"
+  },
+  {
+    "user": "aydin",
+    "bird": "American Goldfinch",
+    "points": 20,
+    "week": 51,
+    "timestamp": "2025-12-20T17:24:57.982872"
+  },
+  {
+    "user": "aydin",
+    "bird": "American Robin",
+    "points": 5,
+    "week": 51,
+    "timestamp": "2025-12-20T17:26:36.555386"
+  },
+  {
+    "user": "garth",
+    "bird": "Black-capped Chickadee",
+    "points": 15,
+    "week": 51,
+    "timestamp": "2025-12-21T10:35:48.319899"
+  },
+  {
+    "user": "garth",
+    "bird": "Peregrine Falcon",
+    "points": 20,
+    "week": 51,
+    "timestamp": "2025-12-21T10:38:58.955213"
+  },
+  {
+    "user": "garth",
+    "bird": "Yellow-bellied Sapsucker",
+    "points": 15,
+    "week": 51,
+    "timestamp": "2025-12-21T10:43:41.648900"
+  },
+  {
+    "user": "koray",
+    "bird": "Northern Cardinal",
+    "points": 10,
+    "week": 51,
+    "timestamp": "2025-12-21T20:13:28.644337"
+  }
+]
