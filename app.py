@@ -117,14 +117,15 @@ Rare birds earn more points. The weekly leaderboard resets every Monday.
 # get the bird picture
 
 def show_bird_image(bird_name: str):
+
     filename = bird_name.replace(" ", "_") + ".jpg"
     path = os.path.join("images", "birds", filename)
     placeholder_path = os.path.join("images", "birds", "placeholder.jpg")
 
     if os.path.exists(path):
-        st.image(path, use_container_width=True)
+        st.image(path, width="stretch")
     elif os.path.exists(placeholder_path):
-        st.image(placeholder_path, use_container_width=True)
+        st.image(placeholder_path, width="stretch")
     else:
         st.caption("🖼️ No image available")
 
@@ -647,16 +648,19 @@ if choice == "📝 Submit Bird" and "suggestions" in st.session_state:
         confidence = int(s["confidence"] * 100)
 
         with st.container():
-            col1, col2 = st.columns([1, 2])
+            col1, col2 = st.columns([1, 2], vertical_alignment="top")
 
             with col1:
                 show_bird_image(bird)
 
             with col2:
+
+                st.markdown(f"### {bird}")
+
                 st.markdown(
                     f"<div class='bird-desc'>{BIRD_DESCRIPTIONS.get(bird, 'No description available yet.')}</div>",
                     unsafe_allow_html=True
-)
+                )
    
                 st.button(
                     "Yes — this is my bird",
