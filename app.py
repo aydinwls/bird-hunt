@@ -380,7 +380,7 @@ BIRD_DESCRIPTIONS = {
     # Abundant Tier
 
     "House Sparrow": "Small brown-and-gray sparrow commonly found in flocks.",
-    "Rock Pigeon": "It's a pigeon.",
+    "Rock Pigeon": "Stocky gray bird with iridescent green and purple on the neck, two dark wing bars, and a short bill. Extremely adaptable and surprisingly strong fliers, they are common in cities, parks, and rooftops.",
     "American Robin": "Brick-red breast, gray-brown back. Medium sized thrush.",
     "European Starling": "Medium sized blackbird with a short tail. Usually seen in groups making a variety of calls.",
     "Mourning Dove": "Looks like a slimmer, more delicate pigeon with a long tail. Makes a soft, sad, \"oo-AH-oo-oo-oo\" call usually heard in the early morning.",
@@ -587,7 +587,7 @@ if "_navigate_to" in st.session_state:
     st.session_state["choice"] = st.session_state.pop("_navigate_to")
 
 choice = st.radio(
-    "Choose an option", ["📝 Submit Bird", "🏆 Leaderboard", "📚 Lifetime Stats"],
+    "Choose an option", ["📝 Submit Bird", "🏆 Leaderboard", "📚 Lifetime Stats", "🖼️ Full Species List"],
     key="choice")
 
 # =============================
@@ -760,3 +760,34 @@ if choice == "📚 Lifetime Stats":
         if st.button("← Back to my stats"):
             st.session_state["selected_user"] = None
 
+
+# =============================
+# FULL SPECIES LIST
+# =============================
+
+if choice == "🖼️ Full Species List":
+    st.subheader("🖼️ Full Species List")
+
+    query = st.text_input(
+        "Search species",
+        placeholder="Type a bird name…"
+    ).strip().lower()
+
+    all_birds = sorted(BIRD_DESCRIPTIONS.keys())
+
+    if query:
+        all_birds = [b for b in all_birds if query in b.lower()]
+
+    cols_per_row = 3
+    for i in range(0, len(all_birds), cols_per_row):
+        row = st.columns(cols_per_row, vertical_alignment="top")
+        for col, bird in zip(row, all_birds[i:i + cols_per_row]):
+            with col:
+                show_bird_image(bird)
+                st.markdown(f"**{bird}**")
+                st.caption(
+                    BIRD_DESCRIPTIONS.get(
+                        bird,
+                        "No description available yet."
+                    )
+                )
